@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+   <project name="local_manifests" path=".repo/local_manifests" remote="gcrash" revision="master" />
   <remote fetch="git://github.com/g-crash" name="gcrash" />
   <remote fetch="git://github.com/LineageOS" name="lineage" />
   <project name="proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="gcrash" revision="lineage-16.0" />
